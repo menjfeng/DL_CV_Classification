@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-# 第一次提交测试GitHub #
+# 第一次提交测试GitHub
 
 
 class LeNet(nn.Module):
@@ -25,4 +25,3 @@ class LeNet(nn.Module):
         x = F.relu(self.fc2(x))      # output(84)
         x = self.fc3(x)              # output(10)
         return x
-
