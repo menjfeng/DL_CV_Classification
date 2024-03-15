@@ -4,7 +4,6 @@ import torch.nn.functional as F
 
 # 第一次提交测试GitHub
 # 好好的
-# 加油
 
 
 class LeNet(nn.Module):
